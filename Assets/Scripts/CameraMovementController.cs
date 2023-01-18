@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CameraMovementController : MonoBehaviour
 {
-    /*private Vector3 _distance;
+    private Vector3 _distance;
     [SerializeField] private float lerpMultiplier;
     [SerializeField] private Transform player;
 
@@ -20,5 +20,5 @@ public class CameraMovementController : MonoBehaviour
     private void CameraFollowPlayer()
     {
         transform.position = Vector3.Lerp(transform.position, player.transform.position + _distance, lerpMultiplier);
-    }*/
+    }
 }
